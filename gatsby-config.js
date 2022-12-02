@@ -6,5 +6,5 @@ module.exports = {
     title: `Nich Dev Blog`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: ["gatsby-plugin-netlify-cms"]
+  plugins: ["gatsby-plugin-netlify"]
 };
