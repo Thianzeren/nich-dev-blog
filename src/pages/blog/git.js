@@ -8,7 +8,7 @@ import { Link } from "gatsby";
 const IndexPage = () => {
   return (
     <Layout pageTitle="Git Basics">
-      <Link to="blog/git-md">Git Full Notes Markdown</Link>
+      <Link to="../git-md">Git Full Notes Markdown</Link>
       <p align="justify">
         <p>
           Git is the most popular version control system (SCM) in the world. It
@@ -232,10 +232,7 @@ const IndexPage = () => {
           I'll be having more articles to cover other topics such as
           <ul>
             <li>
-              <b>Branching</b>
-            </li>
-            <li>
-              <b>Gitflow vs Trunk Based</b>
+              <b>Branching Strategy - Gitflow vs Trunk Based</b>
             </li>
             <li>
               <b>git stash</b>
