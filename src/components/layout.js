@@ -28,6 +28,16 @@ const Layout = ({ pageTitle, children }) => {
                 Git
             </Link>
           </li>
+          <li className={navLinkItem}>
+            <Link to="/blog/aws-s3-md" className={navLinkText}>
+                AWS S3 (MD)
+            </Link>
+          </li>
+          <li className={navLinkItem}>
+            <Link to="/blog/fp-md" className={navLinkText}>
+                Functional Programming (MD)
+            </Link>
+          </li>
         </ul>
       </nav>
       <main>
